@@ -5,10 +5,10 @@ public class factorial
 	{
 		Scanner user = new Scanner(System.in);
 		System.out.println("Input a number. ");
-		int userNumber = user.nextInt();
+		double userNumber = user.nextDouble();
 		System.out.println("The factorial of " + userNumber + " is " + factorial(userNumber));
 	}
-	public static int factorial(int number)
+	public static double factorial(double number)
 	{
 		if (number == 0)
 			return 1;
